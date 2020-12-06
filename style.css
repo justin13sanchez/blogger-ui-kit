@@ -1,0 +1,92 @@
+/***** Globals *****/
+
+html {
+  font: $(html.font);
+  font-weight: normal;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  background: $(html.bg.color);
+  color: $(html.color);
+}
+
+body {
+  margin: 0;
+}
+
+a:active,
+a:hover {
+  outline: none;
+}
+
+a,
+.uk-link {
+  color: $(a.color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+.uk-link:hover,
+.uk-link-toggle:hover .uk-link,
+.uk-link-toggle:focus .uk-link {
+  color: $(a.hover.color);
+  text-decoration: underline;
+}
+
+abbr[title] {
+  text-decoration: underline dotted;
+  -webkit-text-decoration-style: dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+:not(pre) > code,
+:not(pre) > kbd,
+:not(pre) > samp {
+  font-family: Consolas, monaco, monospace;
+  font-size: 0.875rem;
+  color: #f0506e;
+  white-space: nowrap;
+  padding: 2px 6px;
+  background: #f8f8f8;
+}
+
+em, .em {
+  color: #f0506e;
+}
+
+ins {
+  background: #ffd;
+  color: #666;
+  text-decoration: none;
+}
+
+mark, .mark {
+  background: #ffd;
+  color: #666;
+}
+
+q, .q {
+  font-style: italic;
+}
+
+small, .small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
