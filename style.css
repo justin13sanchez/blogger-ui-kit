@@ -182,7 +182,7 @@ h4, .h4 {
 /******** Navigation ********/
 
 .uk-modal {
-  transition: opacity .75s cubic-bezier(1, -0.03, 1, 1);
+  transition: opacity .15s cubic-bezier(1, -0.03, 1, 1);
 }
 
 .nav-padding {
